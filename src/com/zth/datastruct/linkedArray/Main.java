@@ -7,5 +7,6 @@ package com.zth.datastruct.linkedArray;
 public class Main {
     public static void main(String[] args) {
         LinkedList linkedList = new LinkedList();
+        java.util.LinkedList linkedListUtil = new java.util.LinkedList();
     }
 }

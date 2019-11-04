@@ -7,11 +7,41 @@ package com.zth.datastruct.linkedArray;
 public class LinkedList {
     private int size;
     private int[] elements;
-    private LinkedList next;
 
-    public LinkedList(int size, int[] elements, LinkedList next) {
-        this.size = size;
-        this.elements = elements;
-        this.next = next;
+    private static final int INITIAL_SIZE = 10;
+
+    public LinkedList(){
+        elements = new int[INITIAL_SIZE];
+    }
+
+    private boolean rangeCheck(int index) throws Exception {
+        if(index < 0 || index > size){
+            throw new Exception("index Out Of Range");
+        }else{
+            return true;
+        }
+    }
+
+    public void clear(){
+        return;
+    }
+
+    public int size(){
+        return size;
+    }
+
+    public boolean isEmpty(){
+        return size==0;
+    }
+
+    public void add(int element){
+        add(element, size);
+    }
+    public void add(int element, int index){
+        return;
+    }
+
+    public int remove(int element){
+        return -1;
     }
 }
