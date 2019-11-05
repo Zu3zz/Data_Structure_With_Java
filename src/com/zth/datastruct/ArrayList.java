@@ -1,19 +1,16 @@
-package com.zth.datastruct.dynamicArray;
-
-import java.util.Objects;
+package com.zth.datastruct;
 
 /**
  * Author: 3zZ.
  * Date: 2019/11/2 8:21 下午
  */
 @SuppressWarnings("unchecked")
-public class ArrayList<E> {
+public class ArrayList<E> extends AbstractList<E> {
 
     private int size;
     private E[] elements;
 
     private static final int DEFAULT_CAPACITY = 2;
-    private static final int ELEMENT_NOT_FOUND = -1;
 
     public ArrayList(int capaticy) {
         capaticy = (capaticy < 0) ? DEFAULT_CAPACITY : capaticy;
@@ -22,22 +19,6 @@ public class ArrayList<E> {
 
     public ArrayList() {
         this(DEFAULT_CAPACITY);
-    }
-
-    private void outOfBounds(int index) {
-        throw new IndexOutOfBoundsException("Index out of range, index is " + index);
-    }
-
-    private void rangeCheck(int index) {
-        if (index < 0 || index >= size) {
-            outOfBounds(index);
-        }
-    }
-
-    private void rangeCheckForAdd(int index) {
-        if (index < 0 || index > size) {
-            outOfBounds(index);
-        }
     }
 
     /**
@@ -68,30 +49,6 @@ public class ArrayList<E> {
         }
         size = 0;
     }
-
-    /**
-     * 返回数组大小
-     */
-    public int size() {
-        return size;
-    }
-
-    /**
-     * 返回数组是否为空
-     */
-    public boolean isEmpty() {
-        return size == 0;
-    }
-
-    /**
-     * 往数组中添加元素
-     *
-     * @param element 需要插入的元素值
-     */
-    public void add(E element) {
-        add(size, element);
-    }
-
     /**
      * 往index位置中插入一个元素
      *
@@ -104,7 +61,7 @@ public class ArrayList<E> {
         ensureCapacity(size + 1);
 
         for (int i = size; i > index; i--) {
-            elements[i] = elements[i-1];
+            elements[i] = elements[i - 1];
         }
         size++;
         elements[index] = element;

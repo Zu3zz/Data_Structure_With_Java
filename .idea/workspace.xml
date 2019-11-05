@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a832015-cff9-4f3a-87f0-e076e5f2338a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zth/datastruct/AbstractList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zth/datastruct/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zth/datastruct/List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zth/datastruct/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zth/datastruct/linkedArray/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zth/datastruct/linkedArray/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zth/datastruct/linkedArray/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zth/datastruct/linkedArray/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-algorithm/com/zth/ArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-algorithm/com/zth/Assert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-algorithm/com/zth/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-algorithm/com/zth/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zth/datastruct/dynamicArray/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zth/datastruct/ArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zth/datastruct/dynamicArray/Assert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zth/datastruct/Assert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zth/datastruct/dynamicArray/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zth/datastruct/dynamicArray/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zth/datastruct/linkedArray/LinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zth/datastruct/linkedArray/Main.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +44,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -56,6 +67,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zth.datastruct.linkedArray" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -68,9 +84,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.testInt">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.zth.datastruct.dynamicArray.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.zth.datastruct.Main" />
       <module name="java-algorithm" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
@@ -79,8 +95,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zth.datastruct.linkedArray.testInt" />
+      <module name="java-algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zth.datastruct.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.testInt" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -97,7 +127,12 @@
       <updated>1572697282200</updated>
       <workItem from="1572697286830" duration="11423000" />
       <workItem from="1572797499674" duration="1125000" />
-      <workItem from="1572865632284" duration="1510000" />
+      <workItem from="1572865632284" duration="1899000" />
+      <workItem from="1572888720522" duration="1024000" />
+      <workItem from="1572946196219" duration="669000" />
+      <workItem from="1572953625391" duration="663000" />
+      <workItem from="1572970942093" duration="299000" />
+      <workItem from="1572971262061" duration="3530000" />
     </task>
     <servers />
   </component>
@@ -109,7 +144,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

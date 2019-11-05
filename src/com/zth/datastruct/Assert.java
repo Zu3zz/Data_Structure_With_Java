@@ -1,4 +1,4 @@
-package com.zth.datastruct.dynamicArray;
+package com.zth.datastruct;
 
 /**
  * Author: 3zZ.
