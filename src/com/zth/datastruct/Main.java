@@ -1,33 +1,32 @@
 package com.zth.datastruct;
 
-import java.util.Arrays;
-import java.util.Collections;
-
 public class Main {
-    static void test() {
-//        ArrayList<Person> personArrayList = new ArrayList<>();
-//        personArrayList.add(new Person(10,"小毛"));
-//        personArrayList.add(new Person(12,"小黄"));
-//        personArrayList.add(new Person(14,"小蓝"));
-//        System.out.println(personArrayList);
-//
-//        ArrayList<Integer> integerArrayList = new ArrayList<>();
-//        integerArrayList.add(10);
-//        integerArrayList.add(12);
-//        integerArrayList.add(14);
-//        integerArrayList.add(15);
-//        System.out.println(integerArrayList);
+    static void testList(List<Integer> list) {
+        list.add(11);
+        list.add(22);
+        list.add(33);
+        list.add(44);
 
-//        ArrayList<Person> personArrayList = new ArrayList<>();
-//        personArrayList.add(new Person(10,"小毛"));
-//        personArrayList.add(new Person(12,"小毛"));
-//        personArrayList.add(new Person(14,"小蓝"));
-//        personArrayList.add(null);
-//        System.out.println(personArrayList.indexOf(null));
+        list.add(0,55); // [55,11,22,33,44]
+        list.add(2,66); // [55,11,66,22,33,44]
+        list.add(list.size(), 77); // [55,11,66,22,33,44,77]
+
+        list.remove(0); // [11,66,22,33,44,77]
+        list.remove(2); // [11,66,33,44,77]
+        list.remove(list.size() - 1); // [11,66,33,44]
+
+        Assert.test(list.indexOf(44) == 3);
+        Assert.test(list.indexOf(22) == List.ELEMENT_NOT_FOUND);
+        Assert.test(list.contains(33));
+        Assert.test(list.get(0) == 11);
+        Assert.test(list.get(1) == 66);
+        Assert.test(list.get(list.size() - 1) == 44);
+
+        System.out.println(list);
     }
 
     public static void main(String[] args) {
-        List<Integer> list1 = new ArrayList<>();
-        List<Integer> list2 = new LinkedList<>();
+        testList(new ArrayList<>());
+        testList(new LinkedList<>());
     }
 }

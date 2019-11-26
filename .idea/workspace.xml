@@ -2,21 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a832015-cff9-4f3a-87f0-e076e5f2338a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/zth/datastruct/AbstractList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zth/datastruct/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zth/datastruct/List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zth/datastruct/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zth/datastruct/ArrayListTrim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zth/datastruct/SingleLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zth/datastruct/SingleLinkedListDummy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-algorithm/com/zth/ArrayList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-algorithm/com/zth/Assert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-algorithm/com/zth/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-algorithm/com/zth/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zth/datastruct/dynamicArray/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zth/datastruct/ArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zth/datastruct/dynamicArray/Assert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zth/datastruct/Assert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zth/datastruct/dynamicArray/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zth/datastruct/dynamicArray/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zth/datastruct/linkedArray/LinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zth/datastruct/linkedArray/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-algorithm/com/zth/datastruct/dynamicArray/ArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-algorithm/com/zth/datastruct/dynamicArray/Assert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-algorithm/com/zth/datastruct/dynamicArray/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-algorithm/com/zth/datastruct/dynamicArray/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-algorithm/com/zth/datastruct/linkedArray/LinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-algorithm/com/zth/datastruct/linkedArray/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-algorithm/com/zth/datastruct/linkedArray/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-algorithm/com/zth/datastruct/linkedArray/testInt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zth/datastruct/AbstractList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zth/datastruct/AbstractList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zth/datastruct/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zth/datastruct/ArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zth/datastruct/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zth/datastruct/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zth/datastruct/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zth/datastruct/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +61,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
@@ -69,6 +71,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zth.datastruct" />
       <recent name="com.zth.datastruct.linkedArray" />
     </key>
   </component>
@@ -84,7 +87,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.testInt">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.zth.datastruct.Main" />
       <module name="java-algorithm" />
@@ -110,8 +113,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.testInt" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.testInt" />
       </list>
     </recent_temporary>
   </component>
@@ -133,6 +136,14 @@
       <workItem from="1572953625391" duration="663000" />
       <workItem from="1572970942093" duration="299000" />
       <workItem from="1572971262061" duration="3530000" />
+      <workItem from="1573031402909" duration="1231000" />
+      <workItem from="1573210215555" duration="69000" />
+      <workItem from="1573576565452" duration="34000" />
+      <workItem from="1573624984311" duration="529000" />
+      <workItem from="1574155052905" duration="2400000" />
+      <workItem from="1574239063344" duration="5267000" />
+      <workItem from="1574697113442" duration="1881000" />
+      <workItem from="1574756156930" duration="2420000" />
     </task>
     <servers />
   </component>
@@ -151,5 +162,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

@@ -5,18 +5,19 @@ package com.zth.datastruct;
  * Date: 2019/11/2 8:21 下午
  */
 @SuppressWarnings("unchecked")
-public class ArrayList<E> extends AbstractList<E> {
+public class ArrayListTrim<E> extends AbstractList<E> {
 
+    private int size;
     private E[] elements;
 
-    private static final int DEFAULT_CAPACITY = 10;
+    private static final int DEFAULT_CAPACITY = 2;
 
-    public ArrayList(int capaticy) {
+    public ArrayListTrim(int capaticy) {
         capaticy = (capaticy < 0) ? DEFAULT_CAPACITY : capaticy;
         elements = (E[]) new Object[capaticy];
     }
 
-    public ArrayList() {
+    public ArrayListTrim() {
         this(DEFAULT_CAPACITY);
     }
 
@@ -38,6 +39,17 @@ public class ArrayList<E> extends AbstractList<E> {
 //        System.out.println(oldCapacity + "扩容为" + newCapacity);
     }
 
+    private void trim() {
+        int oldCapacity = elements.length;
+        int newCapacity = oldCapacity >> 1;
+        if (size >= (newCapacity) || oldCapacity <= DEFAULT_CAPACITY) return;
+        E[] newElements = (E[]) new Object[newCapacity];
+        for (int i = 0; i < size; i++) {
+            newElements[i] = elements[i];
+        }
+        elements = newElements;
+    }
+
     /**
      * 清除所有元素
      */
@@ -47,7 +59,12 @@ public class ArrayList<E> extends AbstractList<E> {
             elements[i] = null;
         }
         size = 0;
+        // 自己定
+        if (elements != null && elements.length > DEFAULT_CAPACITY) {
+            elements = (E[]) new Object[DEFAULT_CAPACITY];
+        }
     }
+
     /**
      * 往index位置中插入一个元素
      *
@@ -78,10 +95,12 @@ public class ArrayList<E> extends AbstractList<E> {
             elements[i - 1] = elements[i];
         }
         elements[--size] = null;
+
+        trim();
         return ret;
     }
 
-    public void remove(E element){
+    public void remove(E element) {
         remove(indexOf(element));
     }
 

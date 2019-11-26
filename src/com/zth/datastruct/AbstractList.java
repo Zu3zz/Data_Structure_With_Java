@@ -53,6 +53,7 @@ public abstract class AbstractList<E> implements List<E> {
 
     protected void rangeCheckForAdd(int index) {
         if (index < 0 || index > size) {
+            System.out.println(size);
             outOfBounds(index);
         }
     }
