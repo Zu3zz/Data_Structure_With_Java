@@ -1,5 +1,7 @@
 package com.zth.datastruct;
 
+import com.zth.datastruct.circle.SingleCircleLinkedList;
+
 public class Main {
     static void testList(List<Integer> list) {
         list.add(11);
@@ -26,7 +28,6 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        testList(new ArrayList<>());
-        testList(new LinkedList<>());
+        testList(new SingleCircleLinkedList<>());
     }
 }

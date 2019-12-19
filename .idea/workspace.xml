@@ -2,24 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a832015-cff9-4f3a-87f0-e076e5f2338a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/zth/datastruct/ArrayListTrim.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zth/datastruct/SingleLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zth/datastruct/SingleLinkedListDummy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zth/datastruct/circle/SingleCircleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-algorithm/com/zth/datastruct/dynamicArray/ArrayList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-algorithm/com/zth/datastruct/dynamicArray/Assert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-algorithm/com/zth/datastruct/dynamicArray/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-algorithm/com/zth/datastruct/dynamicArray/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-algorithm/com/zth/datastruct/linkedArray/LinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-algorithm/com/zth/datastruct/linkedArray/LinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-algorithm/com/zth/datastruct/linkedArray/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-algorithm/com/zth/datastruct/linkedArray/testInt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zth/datastruct/AbstractList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zth/datastruct/AbstractList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zth/datastruct/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zth/datastruct/ArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zth/datastruct/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zth/datastruct/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-algorithm/META-INF/java-algorithm.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-algorithm/com/zth/datastruct/ArrayListTrim.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-algorithm/com/zth/datastruct/ArrayListTrim.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-algorithm/com/zth/datastruct/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-algorithm/com/zth/datastruct/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-algorithm/com/zth/datastruct/SingleLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-algorithm/com/zth/datastruct/SingleLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-algorithm/com/zth/datastruct/SingleLinkedListDummy$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-algorithm/com/zth/datastruct/SingleLinkedListDummy.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/zth/datastruct/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zth/datastruct/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zth/datastruct/SingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zth/datastruct/single/SingleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zth/datastruct/SingleLinkedListDummy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zth/datastruct/single/SingleLinkedListDummy.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,32 +57,28 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zth.datastruct.circle" />
       <recent name="com.zth.datastruct" />
       <recent name="com.zth.datastruct.linkedArray" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -103,7 +96,7 @@
       <module name="java-algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zth.datastruct.*" />
+          <option name="PATTERN" value="com.zth.datastruct.single.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,6 +110,22 @@
         <item itemvalue="Application.testInt" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
+    <option name="ACTIVE_ACTIONS" value=",SHOW_FIELDS,SHOW_NON_PUBLIC,SHOW_PROPERTIES" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -143,7 +152,12 @@
       <workItem from="1574155052905" duration="2400000" />
       <workItem from="1574239063344" duration="5267000" />
       <workItem from="1574697113442" duration="1881000" />
-      <workItem from="1574756156930" duration="2420000" />
+      <workItem from="1574756156930" duration="2697000" />
+      <workItem from="1575046192634" duration="52000" />
+      <workItem from="1575900057579" duration="261000" />
+      <workItem from="1575900535379" duration="212000" />
+      <workItem from="1575900753281" duration="2544000" />
+      <workItem from="1576748098414" duration="1106000" />
     </task>
     <servers />
   </component>
@@ -165,5 +179,35 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2314" y="325" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575900078757">
+      <screen x="1680" y="-171" width="2560" height="1417" />
+    </state>
+    <state x="2314" y="325" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1680.-171.2560.1417/0.23.1680.1027@1680.-171.2560.1417" timestamp="1575900078757" />
+    <state width="1548" height="318" key="GridCell.Tab.0.bottom" timestamp="1576749298006">
+      <screen x="1680" y="-171" width="2560" height="1417" />
+    </state>
+    <state width="1548" height="318" key="GridCell.Tab.0.bottom/1680.-171.2560.1417/0.23.1680.1027@1680.-171.2560.1417" timestamp="1576749298006" />
+    <state width="1548" height="318" key="GridCell.Tab.0.center" timestamp="1576749298005">
+      <screen x="1680" y="-171" width="2560" height="1417" />
+    </state>
+    <state width="1548" height="318" key="GridCell.Tab.0.center/1680.-171.2560.1417/0.23.1680.1027@1680.-171.2560.1417" timestamp="1576749298005" />
+    <state width="1548" height="318" key="GridCell.Tab.0.left" timestamp="1576749298004">
+      <screen x="1680" y="-171" width="2560" height="1417" />
+    </state>
+    <state width="1548" height="318" key="GridCell.Tab.0.left/1680.-171.2560.1417/0.23.1680.1027@1680.-171.2560.1417" timestamp="1576749298004" />
+    <state width="1548" height="318" key="GridCell.Tab.0.right" timestamp="1576749298005">
+      <screen x="1680" y="-171" width="2560" height="1417" />
+    </state>
+    <state width="1548" height="318" key="GridCell.Tab.0.right/1680.-171.2560.1417/0.23.1680.1027@1680.-171.2560.1417" timestamp="1576749298005" />
+    <state x="2013" y="149" key="SettingsEditor" timestamp="1575900873504">
+      <screen x="1680" y="-171" width="2560" height="1417" />
+    </state>
+    <state x="2013" y="149" key="SettingsEditor/1680.-171.2560.1417/0.23.1680.1027@1680.-171.2560.1417" timestamp="1575900873504" />
+    <state x="2172" y="151" width="670" height="676" key="search.everywhere.popup" timestamp="1575905583890">
+      <screen x="1680" y="-171" width="2560" height="1417" />
+    </state>
+    <state x="2172" y="151" width="670" height="676" key="search.everywhere.popup/1680.-171.2560.1417/0.23.1680.1027@1680.-171.2560.1417" timestamp="1575905583890" />
   </component>
 </project>

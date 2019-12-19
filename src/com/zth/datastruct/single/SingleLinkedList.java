@@ -1,4 +1,6 @@
-package com.zth.datastruct;
+package com.zth.datastruct.single;
+
+import com.zth.datastruct.AbstractList;
 
 /**
  * Author: 3zZ.
