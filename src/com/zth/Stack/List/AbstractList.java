@@ -1,4 +1,4 @@
-package com.zth.datastruct;
+package com.zth.Stack.List;
 
 /**
  * Author: 3zZ.

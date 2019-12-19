@@ -1,6 +1,6 @@
-package com.zth.datastruct.single;
+package com.zth.ArrayAndLinkedList.single;
 
-import com.zth.datastruct.AbstractList;
+import com.zth.ArrayAndLinkedList.AbstractList;
 
 /**
  * Author: 3zZ.

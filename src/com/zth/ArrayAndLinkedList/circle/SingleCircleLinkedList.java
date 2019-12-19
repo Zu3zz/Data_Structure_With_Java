@@ -1,6 +1,6 @@
-package com.zth.datastruct.circle;
+package com.zth.ArrayAndLinkedList.circle;
 
-import com.zth.datastruct.AbstractList;
+import com.zth.ArrayAndLinkedList.AbstractList;
 
 /**
  * Author: 3zZ.

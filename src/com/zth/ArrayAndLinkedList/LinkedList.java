@@ -1,4 +1,4 @@
-package com.zth.datastruct;
+package com.zth.ArrayAndLinkedList;
 
 /**
  * Author: 3zZ.

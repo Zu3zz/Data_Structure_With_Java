@@ -1,6 +1,6 @@
-package com.zth.datastruct.single;
+package com.zth.ArrayAndLinkedList.single;
 
-import com.zth.datastruct.AbstractList;
+import com.zth.ArrayAndLinkedList.AbstractList;
 
 /**
  * 带有一个虚拟头节点dummy的LinkedList

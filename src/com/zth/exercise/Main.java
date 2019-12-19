@@ -1,7 +1,13 @@
-package com.zth.datastruct;
+package com.zth.exercise;
 
-import com.zth.datastruct.circle.SingleCircleLinkedList;
+import com.zth.ArrayAndLinkedList.Assert;
+import com.zth.ArrayAndLinkedList.List;
+import com.zth.ArrayAndLinkedList.circle.CircleLinkedList;
 
+/**
+ * Author: 3zZ.
+ * Date: 2019/12/19 9:35 下午
+ */
 public class Main {
     static void testList(List<Integer> list) {
         list.add(11);
@@ -28,6 +34,6 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        testList(new SingleCircleLinkedList<>());
+        testList(new CircleLinkedList<>());
     }
 }
