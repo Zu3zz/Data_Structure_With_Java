@@ -17,6 +17,7 @@ public class Stack<E>{
     public boolean isEmpty(){
         return list.isEmpty();
     }
+    public void clear() { list.clear(); }
 
     public void push(E element) {
         list.add(element);
